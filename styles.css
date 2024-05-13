@@ -18,12 +18,13 @@ div.post{
 }
 div.post img{
     width: 100%;
+    height: 500px;
 }
-div.post ,post-header div:first-child{
+div.post .post-header div:first-child{
     display: inline-block;
     width: 80%;
 }
-div.post ,post-header div:last-child{
+div.post .post-header div:last-child{
     display: inline-block;
     width: 20%;
     padding: 10px;
